@@ -1,7 +1,13 @@
 # Diretivas para revisão de código
 
 ## Padronização ##
-<Colocar os links do padrão java, Javascript, Angular>
+
+### Padrão Angular 1.x ###
+https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/pt-BR.md
+### Padrão JavaScript ###
+https://github.com/airbnb/javascript/tree/es5-deprecated/es5
+### Padrão Java ###
+https://google.github.io/styleguide/javaguide.html
 
 ## Modularização ##
 1. Regras de negócio não devem encontrar na camada de controle, e sim na camada de domínio (Considerando aqui uma arquitetura multi camadas).
