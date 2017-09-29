@@ -26,6 +26,7 @@ https://google.github.io/styleguide/javaguide.html
 1. Principal item a ser considerado é o SRP (Single Responsability Principle), porém alguns itens secundários são recomendáveis:
 2. Complexidade ciclomática <= 10.
 3. Métodos menores que 30 linhas, geralmente métodos grandes violam o SRP devem ser quebrados por subtarefas, manter o mesmo nível de abstração é algo a ser considerado.
+4. Estruturas de controle aninhada acima de 3.
 
 ## Desenvolvimento defensivo ##
 1. Validar dados de entrada, checando se o comportamento do input é o esperado para a execução da tarefa (Mesmo as entradas do tipo "impossível de acontecer").
