@@ -1,5 +1,5 @@
 # Diretivas para revisão de código
-Discussão entre o revisor e o codificador é sadio, favorece troca de idéias e a aquisição de novo conhecimento; Caso haja conflito, um segundo revisor pode ser acionado.
+Discussão entre o revisor e o codificador é sadio, favorece troca de idéias e a aquisição de novos conhecimentos; Caso haja conflito, um segundo revisor pode ser acionado.
 
 ## Padronização ##
 Padronização devem ser seguidos para manter organização, diminuir a curvatura de aprendizagem e legibilidade, seguem os padrões para cada tecnologia utilizada na stack.
