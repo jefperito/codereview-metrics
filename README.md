@@ -1,7 +1,7 @@
 # Diretivas para revisão de código
 
 ## Padronização ##
-Padronização devem ser seguidos para manter organização, diminuir o code 
+Padronização devem ser seguidos para manter organização, diminuir a curvatura de aprendizagem e legibilidade, seguem os padrões para cada tecnologia utilizada na stack.
 
 ### Padrão Angular 1.x ###
 https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/pt-BR.md
