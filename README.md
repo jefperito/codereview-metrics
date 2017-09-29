@@ -1,1 +1,33 @@
-# codereview-metrics
+# Diretivas para revisão de código
+
+## Padronização ##
+<Colocar os links do padrão java, Javascript, Angular>
+
+## Modularização ##
+1. Regras de negócio não devem encontrar na camada de controle, e sim na camada de domínio (Considerando aqui uma arquitetura multi camadas).
+
+## Nomeclaturas ##
+
+### Nomes que fazem sentido ao negócio e que seja claro. ###
+### Variáveis abreviadas apenas quando é amplamente conhecido o seu signficado.###
+1. Exceções que podem ser utilizadas mas obrigatoriamente se enquadra no "amplamente conhecido":
+ - Índices = i, j, k, ...
+ - Amplamente conhecida: HTML, XML, ...
+ - Siglas do domínio da aplicação: FPO, PPI, SADT, SUS, ...
+
+## Complexidade ##
+1. Principal item a ser considerado é o SRP (Single Responsability Principle), porém alguns itens secundários são recomendáveis:
+2. Complexidade ciclomática <= 10.
+3. Métodos menores que 30 linhas, geralmente métodos grandes violam o SRP devem ser quebrados por subtarefas, manter o mesmo nível de abstração é algo a ser considerado.
+
+## Desenvolvimento defensivo ##
+1. Validar dados de entrada, checando se o comportamento do input é o esperado para a execução da tarefa (Mesmo as entradas do tipo "impossível de acontecer").
+2. Evite retornar null, se retornar, a avaliação do null deve ser checado como retorno.
+3. Caso necessário, valide a pós condição.
+
+## Principios S.O.L.I.D. ##
+1. Single responsibility principle
+2. Open/closed principle
+3. Liskov substitution principle
+4. Interface segregation principle
+5. Dependency inversion principle
