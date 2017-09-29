@@ -1,6 +1,7 @@
 # Diretivas para revisão de código
 
 ## Padronização ##
+Padronização devem ser seguidos para manter organização, diminuir o code 
 
 ### Padrão Angular 1.x ###
 https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/pt-BR.md
