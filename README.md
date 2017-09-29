@@ -17,7 +17,7 @@ https://google.github.io/styleguide/javaguide.html
 ## Nomeclaturas ##
 
 ### Nomes que fazem sentido ao negócio e que seja claro. ###
-### Variáveis abreviadas apenas quando é amplamente conhecido o seu signficado.###
+### Variáveis abreviadas apenas quando é amplamente conhecido o seu signficado. ###
 1. Exceções que podem ser utilizadas mas obrigatoriamente se enquadra no "amplamente conhecido":
  - Índices = i, j, k, ...
  - Amplamente conhecida: HTML, XML, ...
